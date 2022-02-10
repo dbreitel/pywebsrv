@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 9009
+    targetPort: 9007
   selector:
     app: my-app
   type: LoadBalancer
@@ -39,7 +39,7 @@ spec:
          - name: HOST
            value: "my-db"
          - name: LPORT
-           value: "9009"
+           value: "9007"
        ports: 
-        - containerPort: 9009
+        - containerPort: 9007
           protocol: TCP

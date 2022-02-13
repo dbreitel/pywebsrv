@@ -39,9 +39,9 @@ spec:
          - name: HOST
            value: "my-db"
          - name: LPORT
-           value: "9007"
+           value: "9010"
          - name: confuse
            value: "whynot"
        ports: 
-        - containerPort: 9007
+        - containerPort: 9010
           protocol: TCP

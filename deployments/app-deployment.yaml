@@ -40,6 +40,8 @@ spec:
            value: "my-db"
          - name: LPORT
            value: "9007"
+         - name: confuse
+           value: "whynot"
        ports: 
         - containerPort: 9007
           protocol: TCP
